@@ -1,0 +1,674 @@
+{
+  "scope": "reddit_dataSet.csv",
+  "parsing": {
+    "delimiter": "','",
+    "quotechar": "\"",
+    "quoting": "0",
+    "has_header_guess": true
+  },
+  "encoding": {
+    "encoding": "utf-8-sig",
+    "bom": "utf-8-sig",
+    "decode_errors": 0,
+    "sample_nul_chars": 0,
+    "sample_bytes": 1000000
+  },
+  "exact_rows": 1302,
+  "columns": [
+    "platform_raw",
+    "anonymized_user_id",
+    "timestamp",
+    "post_text",
+    "source_ref",
+    "record_id",
+    "month",
+    "day",
+    "hour",
+    "weekday",
+    "is_working_hour",
+    "is_weekend",
+    "post_length_chars",
+    "post_length_tokens",
+    "score",
+    "reply_count",
+    "share_count",
+    "parent_id",
+    "raw_meta_json",
+    "post_text_clean",
+    "lang",
+    "tier_lexicon",
+    "lex_conf",
+    "lex_hits",
+    "lex_topical",
+    "tier_corrected",
+    "corr_conf",
+    "tier_model",
+    "model_conf",
+    "model_accept",
+    "tier",
+    "tier_source",
+    "tier_confidence",
+    "split",
+    "is_synthetic",
+    "aug_method",
+    "parent_record_id",
+    "aug_version",
+    "temporal_mask",
+    "text_muril",
+    "text_negation",
+    "translit_map_hits",
+    "emoji_sub_count",
+    "ruminative_repetition",
+    "model_split",
+    "platform",
+    "tier_pred",
+    "prob_tier_0",
+    "prob_tier_1",
+    "prob_tier_2",
+    "prob_tier_3"
+  ],
+  "selected_columns": {
+    "text": "post_text",
+    "user_id": "anonymized_user_id",
+    "timestamp": "timestamp",
+    "label_candidates": [
+      "tier_lexicon",
+      "tier_corrected",
+      "tier_model",
+      "tier",
+      "tier_source",
+      "tier_confidence",
+      "tier_pred",
+      "prob_tier_0",
+      "prob_tier_1",
+      "prob_tier_2",
+      "prob_tier_3"
+    ]
+  },
+  "malformed_rows": {
+    "count": 0,
+    "examples": [],
+    "parser_error_count": 0,
+    "parser_errors": []
+  },
+  "label_provenance": {
+    "tier_lexicon": {
+      "distinct": 4,
+      "top_values": [
+        [
+          "0",
+          1184
+        ],
+        [
+          "2",
+          67
+        ],
+        [
+          "1",
+          29
+        ],
+        [
+          "3",
+          22
+        ]
+      ],
+      "interpretation": "column name/value metadata only; ground-truth status is unverified"
+    },
+    "tier_corrected": {
+      "distinct": 4,
+      "top_values": [
+        [
+          "0",
+          1189
+        ],
+        [
+          "2",
+          67
+        ],
+        [
+          "1",
+          24
+        ],
+        [
+          "3",
+          22
+        ]
+      ],
+      "interpretation": "column name/value metadata only; ground-truth status is unverified"
+    },
+    "tier_model": {
+      "distinct": 4,
+      "top_values": [
+        [
+          "0",
+          1254
+        ],
+        [
+          "2",
+          30
+        ],
+        [
+          "3",
+          11
+        ],
+        [
+          "1",
+          7
+        ]
+      ],
+      "interpretation": "column name/value metadata only; ground-truth status is unverified"
+    },
+    "tier": {
+      "distinct": 4,
+      "top_values": [
+        [
+          "0",
+          1189
+        ],
+        [
+          "2",
+          67
+        ],
+        [
+          "1",
+          24
+        ],
+        [
+          "3",
+          22
+        ]
+      ],
+      "interpretation": "column name/value metadata only; ground-truth status is unverified"
+    },
+    "tier_source": {
+      "distinct": 2,
+      "top_values": [
+        [
+          "lexicon",
+          1297
+        ],
+        [
+          "corrected",
+          5
+        ]
+      ],
+      "interpretation": "column name/value metadata only; ground-truth status is unverified"
+    },
+    "tier_confidence": {
+      "distinct": 1105,
+      "top_values": [
+        [
+          "0.8825",
+          4
+        ],
+        [
+          "0.8699",
+          4
+        ],
+        [
+          "0.8529",
+          4
+        ],
+        [
+          "0.7574",
+          4
+        ],
+        [
+          "0.8046",
+          3
+        ],
+        [
+          "0.754",
+          3
+        ],
+        [
+          "0.8581",
+          3
+        ],
+        [
+          "0.7816",
+          3
+        ],
+        [
+          "0.846",
+          3
+        ],
+        [
+          "0.8305",
+          3
+        ],
+        [
+          "0.8897",
+          3
+        ],
+        [
+          "0.75",
+          3
+        ],
+        [
+          "0.8708",
+          3
+        ],
+        [
+          "0.913",
+          3
+        ],
+        [
+          "0.9344",
+          3
+        ],
+        [
+          "0.8202",
+          3
+        ],
+        [
+          "0.9217",
+          3
+        ],
+        [
+          "0.8438",
+          3
+        ],
+        [
+          "0.9133",
+          3
+        ],
+        [
+          "0.9158",
+          3
+        ]
+      ],
+      "interpretation": "column name/value metadata only; ground-truth status is unverified"
+    },
+    "tier_pred": {
+      "distinct": 4,
+      "top_values": [
+        [
+          "0",
+          1194
+        ],
+        [
+          "2",
+          85
+        ],
+        [
+          "1",
+          16
+        ],
+        [
+          "3",
+          7
+        ]
+      ],
+      "interpretation": "column name/value metadata only; ground-truth status is unverified"
+    },
+    "prob_tier_0": {
+      "distinct": 554,
+      "top_values": [
+        [
+          "0.9966",
+          19
+        ],
+        [
+          "0.9965",
+          17
+        ],
+        [
+          "0.9952",
+          17
+        ],
+        [
+          "0.996",
+          16
+        ],
+        [
+          "0.9962",
+          15
+        ],
+        [
+          "0.9944",
+          15
+        ],
+        [
+          "0.9968",
+          14
+        ],
+        [
+          "0.9969",
+          14
+        ],
+        [
+          "0.9958",
+          13
+        ],
+        [
+          "0.9959",
+          13
+        ],
+        [
+          "0.9945",
+          13
+        ],
+        [
+          "0.9963",
+          13
+        ],
+        [
+          "0.995",
+          12
+        ],
+        [
+          "0.9934",
+          12
+        ],
+        [
+          "0.9976",
+          12
+        ],
+        [
+          "0.9961",
+          11
+        ],
+        [
+          "0.9973",
+          11
+        ],
+        [
+          "0.9971",
+          11
+        ],
+        [
+          "0.9953",
+          11
+        ],
+        [
+          "0.9951",
+          11
+        ]
+      ],
+      "interpretation": "column name/value metadata only; ground-truth status is unverified"
+    },
+    "prob_tier_1": {
+      "distinct": 262,
+      "top_values": [
+        [
+          "0.0003",
+          123
+        ],
+        [
+          "0.0002",
+          122
+        ],
+        [
+          "0.0005",
+          87
+        ],
+        [
+          "0.0004",
+          87
+        ],
+        [
+          "0.0001",
+          65
+        ],
+        [
+          "0.0008",
+          49
+        ],
+        [
+          "0.0007",
+          42
+        ],
+        [
+          "0.0006",
+          40
+        ],
+        [
+          "0.0009",
+          29
+        ],
+        [
+          "0.001",
+          25
+        ],
+        [
+          "0.0012",
+          24
+        ],
+        [
+          "0.0011",
+          24
+        ],
+        [
+          "0.0014",
+          19
+        ],
+        [
+          "0.0013",
+          17
+        ],
+        [
+          "0.0022",
+          17
+        ],
+        [
+          "0.002",
+          16
+        ],
+        [
+          "0.0015",
+          15
+        ],
+        [
+          "0.0016",
+          15
+        ],
+        [
+          "0.0018",
+          15
+        ],
+        [
+          "0.0017",
+          13
+        ]
+      ],
+      "interpretation": "column name/value metadata only; ground-truth status is unverified"
+    },
+    "prob_tier_2": {
+      "distinct": 461,
+      "top_values": [
+        [
+          "0.0015",
+          29
+        ],
+        [
+          "0.001",
+          25
+        ],
+        [
+          "0.0014",
+          23
+        ],
+        [
+          "0.0028",
+          20
+        ],
+        [
+          "0.0012",
+          18
+        ],
+        [
+          "0.0023",
+          18
+        ],
+        [
+          "0.002",
+          18
+        ],
+        [
+          "0.0026",
+          18
+        ],
+        [
+          "0.0024",
+          17
+        ],
+        [
+          "0.003",
+          17
+        ],
+        [
+          "0.0037",
+          16
+        ],
+        [
+          "0.0043",
+          16
+        ],
+        [
+          "0.0018",
+          16
+        ],
+        [
+          "0.0019",
+          16
+        ],
+        [
+          "0.0029",
+          16
+        ],
+        [
+          "0.0013",
+          16
+        ],
+        [
+          "0.0038",
+          15
+        ],
+        [
+          "0.0034",
+          15
+        ],
+        [
+          "0.0031",
+          15
+        ],
+        [
+          "0.0022",
+          15
+        ]
+      ],
+      "interpretation": "column name/value metadata only; ground-truth status is unverified"
+    },
+    "prob_tier_3": {
+      "distinct": 137,
+      "top_values": [
+        [
+          "0",
+          499
+        ],
+        [
+          "0.0001",
+          347
+        ],
+        [
+          "0.0002",
+          96
+        ],
+        [
+          "0.0003",
+          48
+        ],
+        [
+          "0.0004",
+          26
+        ],
+        [
+          "0.0005",
+          25
+        ],
+        [
+          "0.0006",
+          19
+        ],
+        [
+          "0.0007",
+          14
+        ],
+        [
+          "0.0009",
+          12
+        ],
+        [
+          "0.0018",
+          8
+        ],
+        [
+          "0.0008",
+          8
+        ],
+        [
+          "0.001",
+          7
+        ],
+        [
+          "0.0016",
+          7
+        ],
+        [
+          "0.0027",
+          7
+        ],
+        [
+          "0.0014",
+          6
+        ],
+        [
+          "0.0011",
+          6
+        ],
+        [
+          "0.0024",
+          6
+        ],
+        [
+          "0.0012",
+          5
+        ],
+        [
+          "0.0021",
+          5
+        ],
+        [
+          "0.0032",
+          5
+        ]
+      ],
+      "interpretation": "column name/value metadata only; ground-truth status is unverified"
+    }
+  },
+  "duplicates_and_leakage": {
+    "repeated_user_rows": 490,
+    "duplicate_text_rows": 47,
+    "unique_record_ids": 1302,
+    "unique_text_hashes": 1255,
+    "unique_users": 812,
+    "unique_parent_ids": 0,
+    "text_hashes_in_multiple_splits": 0,
+    "users_in_multiple_splits": 0,
+    "parent_ids_in_multiple_splits": 0
+  },
+  "unresolved_questions": [
+    "Which labels are human annotations versus lexicon/model outputs?",
+    "What do classes 0-3 mean, and who verified them?",
+    "Why do split and model_split exist, and which is authoritative?",
+    "Are synthetic/augmented rows allowed in evaluation?",
+    "Are timestamps collection time or original-post time?"
+  ],
+  "recommended_next_steps": [
+    "Obtain dataset documentation and label-generation code.",
+    "Freeze a leakage policy before any split or training.",
+    "Manually review a small stratified sample with privacy safeguards.",
+    "Do not treat tier as verified ground truth without provenance evidence."
+  ]
+}
