@@ -1,53 +1,53 @@
 record_id,platform,post_text,annotator_label,annotator_confidence,needs_review,review_reason,context_flags
-7cb4f4f5-62be-4740-85d8-82ffb9206eb8,youtube,I have anxiety problems I just use the box breathing strategy you can use it in public or at home just find anything like box or square shaped breath in for 4 seconds and breath out for 4 secs,,,,,
-2a23caa3-f2d4-4222-bb7f-ae10c0dc698f,youtube,In India both hitting and going to psychologists make you lose your rights,,,,,
-a38a32cf-79da-46b6-a488-c391c04cddcc,youtube,Mujhe koi ye bataye ye Jo mostly womens cheekhte hain aur kehte hain ke uske andar koi aatma hai aur ajeeb tareeke se bolte hain aur kehte hain hamara koi Gala daba Raha hai isko scientific bhasha main kiya kehte hain,,,,,
-147604d9-8019-4b74-af9c-d343c0381855,youtube,My mind is just a empty void,,,,,
-8c0a2691-e258-4f6d-9c1b-4e31c7dbdff1,youtube,Great content. It was very comforting for me.,,,,,
-6582a502-2531-40e8-8e39-2feeb25b646f,youtube,thank you so much for this important information i really need to listen to this time thanks a lot loves u bless u ????????,,,,,
-44e18dc0-e192-4a16-9f91-a0d7d2fcabae,youtube,I also feel alone,,,,,
-d9c1a470-40c0-45fa-a332-17f901e196b9,youtube,Helll,,,,,
-1aeaf9d7-b617-4616-9970-1c5526fde126,youtube,I feel like I J's don't belong to my family cause I always fight  or argue and I always be mean to  my fam. And I J's feel like dying but ik I could make my life better,,,,,
-8c1799db-1200-4737-99e0-3bb5dae7f31b,youtube,"bruh just watch the video from Vsauce ""science of awkwardness"" he literally solved anxiety that video",,,,,
-11df74cf-c210-4836-a44f-7ac7f9690081,youtube,I totally agree with you,,,,,
-4aa5306d-d326-4dc3-9acd-edff003d549f,youtube,9/9 gng,,,,,
-2676b021-74ab-4b6b-9576-cb10721a4eb3,youtube,I don't get the fast food thing.,,,,,
-0da9c62b-4192-47fe-b80a-b30d3a925752,youtube,The person who is asking questions and question the way really awesome???,,,,,
-3ea3cbaf-8569-4a52-b355-199bff9492b4,youtube,I really wanted to be a  psychiatrist but my parents said if that is the case then better you get married and so finally I took commerce in my new class -11th,,,,,
+7cb4f4f5-62be-4740-85d8-82ffb9206eb8,youtube,I have anxiety problems I just use the box breathing strategy you can use it in public or at home just find anything like box or square shaped breath in for 4 seconds and breath out for 4 secs,mental_health_self_report,High,FALSE,,first_person_or_self_report
+2a23caa3-f2d4-4222-bb7f-ae10c0dc698f,youtube,In India both hitting and going to psychologists make you lose your rights,mental_health_reference_or_support,High,FALSE,,mental_health_reference
+a38a32cf-79da-46b6-a488-c391c04cddcc,youtube,Mujhe koi ye bataye ye Jo mostly womens cheekhte hain aur kehte hain ke uske andar koi aatma hai aur ajeeb tareeke se bolte hain aur kehte hain hamara koi Gala daba Raha hai isko scientific bhasha main kiya kehte hain,non_mental_health,High,FALSE,,unrelated_or_neutral
+147604d9-8019-4b74-af9c-d343c0381855,youtube,My mind is just a empty void,non_mental_health,High,FALSE,,first_person_or_self_report
+8c0a2691-e258-4f6d-9c1b-4e31c7dbdff1,youtube,Great content. It was very comforting for me.,non_mental_health,Low,FALSE,,unrelated_or_neutral
+6582a502-2531-40e8-8e39-2feeb25b646f,youtube,thank you so much for this important information i really need to listen to this time thanks a lot loves u bless u ????????,non_mental_health,Low,FALSE,,unrelated_or_neutral
+44e18dc0-e192-4a16-9f91-a0d7d2fcabae,youtube,I also feel alone,mental_health_self_report,High,FALSE,,first_person_or_self_report
+d9c1a470-40c0-45fa-a332-17f901e196b9,youtube,Helll,non_mental_health,Low,FALSE,,unrelated_or_neutral
+1aeaf9d7-b617-4616-9970-1c5526fde126,youtube,I feel like I J's don't belong to my family cause I always fight  or argue and I always be mean to  my fam. And I J's feel like dying but ik I could make my life better,suicidal_ideation_or_hopelessness,High,TRUE,Self-referential death or hopelessness content,first_person_or_self_report
+8c1799db-1200-4737-99e0-3bb5dae7f31b,youtube,"bruh just watch the video from Vsauce ""science of awkwardness"" he literally solved anxiety that video",mental_health_reference_or_support,High,FALSE,,mental_health_reference
+11df74cf-c210-4836-a44f-7ac7f9690081,youtube,I totally agree with you,non_mental_health,Low,FALSE,,unrelated_or_neutral
+4aa5306d-d326-4dc3-9acd-edff003d549f,youtube,9/9 gng,non_mental_health,Low,FALSE,,unrelated_or_neutral
+2676b021-74ab-4b6b-9576-cb10721a4eb3,youtube,I don't get the fast food thing.,non_mental_health,Low,FALSE,,unrelated_or_neutral
+0da9c62b-4192-47fe-b80a-b30d3a925752,youtube,The person who is asking questions and question the way really awesome???,non_mental_health,Low,FALSE,,unrelated_or_neutral
+3ea3cbaf-8569-4a52-b355-199bff9492b4,youtube,I really wanted to be a  psychiatrist but my parents said if that is the case then better you get married and so finally I took commerce in my new class -11th,non-mental_health_or_support,High,FALSE,,mental_health_reference
 56dfa8c7-1a87-47b9-bf64-0bf0ce97496b,youtube,"I hope your dr explained a holistic approach to improving your low mood. Talk therapy , 
 Eating healthy, exercise will always be my go to’s 
-Good luck on your journey",,,,,
-465c5a3e-46c8-464b-a072-30401846ba8a,youtube,"Damn, first i gotta learn how to read.",,,,,
-8911c611-8e49-4d20-a245-c0d517a86edc,youtube,Dr.sir apna contact number ya address dijye na plz.,,,,,
-6f885fa5-3e5d-463b-8e5e-d964906d3999,youtube,I deals with schizophrenia in 2021 the time was difficult for me and my parents I can't explain what experiences experience on that time.. and also I feel like I was die and I think May be near death experience so the time was very painful,,,,,
-95567dd1-82c8-4492-b22e-bbed2ed4502d,youtube,"That's the reason why I tried to attempt sucide when I said my parents that I am feeling like I have depression cause my mom said ""cut this drama what's the tension you have I am in depression not you you have no reason to be depressed"" but I suddenly putted the kitchen knife down as my mom was walking in and I don't wanted them to know about that and what she said I have no reason to be depressed than why do I cry cause you don't even allow me to go to terrace and my aunt's house (masi ka ghar) which was on the floor on top only and why we shifted from the place where I have lots of friends and who forced me to go to tution for two hours after school and study one hour at home and eat and sleep and have no rest time sorry I spoke too much I was just saying that's why I too tried to attempt sucide",,,,,
-f8ae8de0-b2f4-460f-9c78-5d231c0270b2,reddit,"In the US if a law enforcement officer is threatened by a sword or knife and the attacker is within 21 ft and approaching, they are allowed to shoot them without even trying non-lethal alternatives. That is what is needed here. ",,,,,
-405a05bd-6c2e-4424-8552-f8b17eb30181,reddit,You call can suck it. And specially the karma farming c*nt.🤗,,,,,
-4f0babfb-bb91-458d-925d-7e25310a3c57,reddit,And this isn't a pity post I'm just expressing myself for others to see don't bother trying to encourage me it's hopeless but I hope things go better for all of you I didn't deserve to be born❤️ ,,,,,
-e065b0b0-580f-428f-b68a-3bd1d0f316c4,reddit,"My dad published a book years ago, just put it in the local library, didn’t do anything else",,,,,
+Good luck on your journey",mental_health_advice,High,FALSE,,first_person_or_self_report
+465c5a3e-46c8-464b-a072-30401846ba8a,youtube,"Damn, first i gotta learn how to read.",non_mental_health,Low,FALSE,,unrelated_or_neutral
+8911c611-8e49-4d20-a245-c0d517a86edc,youtube,Dr.sir apna contact number ya address dijye na plz.,non_mental_health,Low,FALSE,,unrelated_or_neutral
+6f885fa5-3e5d-463b-8e5e-d964906d3999,youtube,I deals with schizophrenia in 2021 the time was difficult for me and my parents I can't explain what experiences experience on that time.. and also I feel like I was die and I think May be near death experience so the time was very painful,mental_health_self_report,High,FALSE,,first_person_or_self_report
+95567dd1-82c8-4492-b22e-bbed2ed4502d,youtube,"That's the reason why I tried to attempt sucide when I said my parents that I am feeling like I have depression cause my mom said ""cut this drama what's the tension you have I am in depression not you you have no reason to be depressed"" but I suddenly putted the kitchen knife down as my mom was walking in and I don't wanted them to know about that and what she said I have no reason to be depressed than why do I cry cause you don't even allow me to go to terrace and my aunt's house (masi ka ghar) which was on the floor on top only and why we shifted from the place where I have lots of friends and who forced me to go to tution for two hours after school and study one hour at home and eat and sleep and have no rest time sorry I spoke too much I was just saying that's why I too tried to attempt sucide",suicidal_self_report,High,TRUE,Explicit first-person suicide-attempt disclosure,first_person_or_self_report
+f8ae8de0-b2f4-460f-9c78-5d231c0270b2,reddit,"In the US if a law enforcement officer is threatened by a sword or knife and the attacker is within 21 ft and approaching, they are allowed to shoot them without even trying non-lethal alternatives. That is what is needed here. ",non_mental_health,Low,FALSE,,unrelated_or_neutral
+405a05bd-6c2e-4424-8552-f8b17eb30181,reddit,You call can suck it. And specially the karma farming c*nt.🤗,non_mental_health,Low,FALSE,,unrelated_or_neutral
+4f0babfb-bb91-458d-925d-7e25310a3c57,reddit,And this isn't a pity post I'm just expressing myself for others to see don't bother trying to encourage me it's hopeless but I hope things go better for all of you I didn't deserve to be born❤️ ,Depression_or_hopelessness,High,TRUE,Self-referential death or hopelessness content,first_person_or_self_report
+e065b0b0-580f-428f-b68a-3bd1d0f316c4,reddit,"My dad published a book years ago, just put it in the local library, didn’t do anything else",non_mental_health,Low,FALSE,,unrelated_or_neutral
 b29ebf9c-931f-4e3a-9fa1-c6df1d1bb6d1,reddit,"Here are some. You will find many such articles just google something like - Person caught holding dual passport India. 
 
 https://www.ndtv.com/india-news/entry-ban-on-man-who-used-indian-passport-after-belgian-citizenship-upheld-by-high-court-3869205
 
-https://www.hindustantimes.com/cities/mumbai-news/71yearold-woman-held-at-airport-for-suspected-dual-citizenship-101695323574544.html",,,,,
-f7631598-c79b-4e0e-a3ee-986be6393391,reddit,"No, I'm okay, I really don't have a lot else to say",,,,,
-06bc6e33-6b72-4ce6-add1-ee883df5d527,reddit,This. ,,,,,
-a683aeaa-ed07-4fef-a11e-5146165aa700,reddit,"Think about whether your cat would appreciate it if you harm yourself for this? Won't it hurt them even more? I know how it feels like when someone so close to you is just taken away, but please stay strong. It's definitely not going to be easy but keep living for the sake of your cat. Talk to people, cry out loud wherever you can find space. Express your thoughts and vent it out. If the roles where reversed will you be fine if your cat harmed themselves in your thoughts? ",,,,,
-e6d3fce2-bb0d-4a67-9022-543fb26981de,reddit,"Yup, exhausted, sad, miserable. Fucking hate this hellscape",,,,,
-37116ea1-8e55-4b6f-a74d-d619b22a7051,reddit,"Bada pyaar hai dono me, abhi bhi ek dusre ka hi naam le rahe hai",,,,,
-5f978868-dca6-4ea9-a5d8-57a292bae3fa,reddit,"hey that's a lot to carry alone, but you're not broken for feeling it",,,,,
-06c0b942-6a90-4725-a4d1-8873a649ee7a,reddit,"I know you’re hurting and it’s ok to feel this way and question yourself. But it doesn’t your better off dead from those overwhelming feels. It’s ok if you just lay all day, however, getting out of bed might have to be the very first accomplishment that you should do. Then, you should do very minor things to help you cope better. Doesn’t matter what it is, even if it’s just getting up from lying down for at least a second means that you’re still trying and a small part of you cares about living. And if one person like your mom cares and values you, then it means that you’re still important in this world. Don’t ever forget that you are still special in this world no matter what.",,,,,
-504121e9-e7e0-4225-99c0-0f1417a813b6,reddit,Of course ,,,,,
-2a73e2e4-148e-4733-9fcf-975380a097bc,reddit,this should be the top comment!!!!!!!!!!! ,,,,,
-81b55c3f-c05b-43f4-b5ec-94cfe68bb1ee,reddit,"Brah pakis have some good singers. They make good music. Dont do comparison. If you go by sheer numbers, pawan singh and khesari lal yadav have more views on their songs than any coke studio, thats also music, many love it. Music is music. ",,,,,
-1d346500-08aa-49f8-8dc7-a71f17b68174,reddit,Im sorry to hear.. I really am. Seeking professional help through therapy could be very beneficial. ,,,,,
-c8b05315-bdc9-4205-b7d0-589060b5d6ac,reddit,Yea agreed ,,,,,
+https://www.hindustantimes.com/cities/mumbai-news/71yearold-woman-held-at-airport-for-suspected-dual-citizenship-101695323574544.html",non_mental_health,Low,FALSE,,unrelated_or_neutral
+f7631598-c79b-4e0e-a3ee-986be6393391,reddit,"No, I'm okay, I really don't have a lot else to say",non_mental_health,Low,FALSE,,unrelated_or_neutral
+06bc6e33-6b72-4ce6-add1-ee883df5d527,reddit,This. ,non_mental_health,Low,FALSE,,unrelated_or_neutral
+a683aeaa-ed07-4fef-a11e-5146165aa700,reddit,"Think about whether your cat would appreciate it if you harm yourself for this? Won't it hurt them even more? I know how it feels like when someone so close to you is just taken away, but please stay strong. It's definitely not going to be easy but keep living for the sake of your cat. Talk to people, cry out loud wherever you can find space. Express your thoughts and vent it out. If the roles where reversed will you be fine if your cat harmed themselves in your thoughts? ",mental_health_reference_or_support,High,FALSE,,support_or_advice
+e6d3fce2-bb0d-4a67-9022-543fb26981de,reddit,"Yup, exhausted, sad, miserable. Fucking hate this hellscape",mental_health_self_report,High,FALSE,,first_person_or_self_report
+37116ea1-8e55-4b6f-a74d-d619b22a7051,reddit,"Bada pyaar hai dono me, abhi bhi ek dusre ka hi naam le rahe hai",non_mental_health,Low,FALSE,,unrelated_or_neutral
+5f978868-dca6-4ea9-a5d8-57a292bae3fa,reddit,"hey that's a lot to carry alone, but you're not broken for feeling it",non_mental_health+support,Low,FALSE,,unrelated_or_neutral
+06c0b942-6a90-4725-a4d1-8873a649ee7a,reddit,"I know you’re hurting and it’s ok to feel this way and question yourself. But it doesn’t your better off dead from those overwhelming feels. It’s ok if you just lay all day, however, getting out of bed might have to be the very first accomplishment that you should do. Then, you should do very minor things to help you cope better. Doesn’t matter what it is, even if it’s just getting up from lying down for at least a second means that you’re still trying and a small part of you cares about living. And if one person like your mom cares and values you, then it means that you’re still important in this world. Don’t ever forget that you are still special in this world no matter what.",suicidal_ideation_or_hopelessness+support,High,TRUE,Self-referential death or hopelessness content,first_person_or_self_report
+504121e9-e7e0-4225-99c0-0f1417a813b6,reddit,Of course ,non_mental_health,Low,FALSE,,unrelated_or_neutral
+2a73e2e4-148e-4733-9fcf-975380a097bc,reddit,this should be the top comment!!!!!!!!!!! ,non_mental_health,Low,FALSE,,unrelated_or_neutral
+81b55c3f-c05b-43f4-b5ec-94cfe68bb1ee,reddit,"Brah pakis have some good singers. They make good music. Dont do comparison. If you go by sheer numbers, pawan singh and khesari lal yadav have more views on their songs than any coke studio, thats also music, many love it. Music is music. ",non_mental_health,High,FALSE,,unrelated_or_neutral
+1d346500-08aa-49f8-8dc7-a71f17b68174,reddit,Im sorry to hear.. I really am. Seeking professional help through therapy could be very beneficial. ,mental_health_reference_or_support,High,FALSE,,support_or_advice
+c8b05315-bdc9-4205-b7d0-589060b5d6ac,reddit,Yea agreed ,non_mental_health,Low,FALSE,,unrelated_or_neutral
 b50820fb-6429-434e-9af9-ad53911572b5,reddit,"Comparison is the thief of joy. 
 
-",,,,,
-50221956-7ad8-426c-a40a-12d8bacb8a3c,reddit,Cocktail 3,,,,,
-61db3da8-0925-4dd3-bc69-81122a6fa8ad,reddit,Har ex-teenager mein ek teenager hota/hoti hai.,,,,,
-f2171006-a8f0-4826-91a2-372b575fe9ee,twitter,"India is in the midst of its festive season but a large population surviving depression is barely surviving, be kind, be sensitive, #mentalhealthmatters #mentalhealth",,,,,
+",non_mental_health,Low,FALSE,,unrelated_or_neutral
+50221956-7ad8-426c-a40a-12d8bacb8a3c,reddit,Cocktail 3,non_mental_health,Low,FALSE,,unrelated_or_neutral
+61db3da8-0925-4dd3-bc69-81122a6fa8ad,reddit,Har ex-teenager mein ek teenager hota/hoti hai.,non_mental_health,Low,FALSE,,unrelated_or_neutral
+f2171006-a8f0-4826-91a2-372b575fe9ee,twitter,"India is in the midst of its festive season but a large population surviving depression is barely surviving, be kind, be sensitive, #mentalhealthmatters #mentalhealth",mental_health_reference_or_support,High,FALSE,,mental_health_reference
 f8f8eeff-e8fe-4a6c-ab4f-245f85f63f5d,twitter,"🌟 Emotions Feelings Wheel Mouse Pad
 
 ✨ ₹1997
@@ -56,8 +56,8 @@ Save
 
 https://t.co/xzIoyVLS2z
 
-#EmotionsWheel #MentalHealth #TherapyTools #Wellbeing #India",,,,,
-cd0d2086-60d8-4965-9cac-5b8514fcc2f2,twitter,"Ek lady 30 ki age me vidhawa ho gai. Sasural se nikal diya gaya. Akelapan ki wajah se kutto, suwaro aur baki animal me dhyan lagane lagi. Politics me fail ho gai. Dhire dhire poore Desh ko kuttalay bana diya. Dog lovers ki Army khadi kar di. Ee Na Cholbe. Hang her till death",,,,,
+#EmotionsWheel #MentalHealth #TherapyTools #Wellbeing #India",non_mental_health,Low,FALSE,,mental_health_reference
+cd0d2086-60d8-4965-9cac-5b8514fcc2f2,twitter,"Ek lady 30 ki age me vidhawa ho gai. Sasural se nikal diya gaya. Akelapan ki wajah se kutto, suwaro aur baki animal me dhyan lagane lagi. Politics me fail ho gai. Dhire dhire poore Desh ko kuttalay bana diya. Dog lovers ki Army khadi kar di. Ee Na Cholbe. Hang her till death",non_mental_health+hate,High,FALSE,,mental_health_reference
 5486b877-2932-4eb9-ac33-f2ce74abe305,twitter,"🔥 Pre-interview anxiety hitting worldwide?
 Would you pay $2 for a 5-minute calm drill that:
 ✅ Kills nerves fast
@@ -65,29 +65,29 @@ Would you pay $2 for a 5-minute calm drill that:
 ✅ Backed by science (80% of candidates struggle)
 🌍 Testing in US, India &amp; EU
 Reply: Yes / Maybe / No
-#JobSearchWorldwide #CareerTips #MentalHealth https://t.co/9Tgjin8MyA",,,,,
-f4c63069-41a3-4262-8667-dff3ac3493eb,twitter,"Log twitter pe jis confidence se dating &amp; love life advices dete hai, bhai pehle tum khud to experience le lo yaa apna akelapan door kar lo.",,,,,
-b1ad6e46-07bc-4101-a1c7-21baa3a2e013,twitter,mujhe akelapan bahot psnd hai khaskar tab jab mere paas khane ko kuch ho.,,,,,
-8b7d2cb9-b94e-4f97-aff0-e02a850f6f08,twitter,"@Shruti_Aug2 Mat roko unhe, wo zindagi se pareshan hai",,,,,
+#JobSearchWorldwide #CareerTips #MentalHealth https://t.co/9Tgjin8MyA",mental_health_reference_Information,High,FALSE,,mental_health_reference
+f4c63069-41a3-4262-8667-dff3ac3493eb,twitter,"Log twitter pe jis confidence se dating &amp; love life advices dete hai, bhai pehle tum khud to experience le lo yaa apna akelapan door kar lo.",non_mental_health,Low,FALSE,,mental_health_reference
+b1ad6e46-07bc-4101-a1c7-21baa3a2e013,twitter,mujhe akelapan bahot psnd hai khaskar tab jab mere paas khane ko kuch ho.,non_mental_health,Low,FALSE,,mental_health_reference
+8b7d2cb9-b94e-4f97-aff0-e02a850f6f08,twitter,"@Shruti_Aug2 Mat roko unhe, wo zindagi se pareshan hai",mental_health_reference_or_support,High,FALSE,,mental_health_reference
 4814e28a-9185-4441-b68a-41c78f09dd1d,twitter,"Zindagi Mein Kuch Aise Din, Aise Lamhaat Hote Hai Jab Apka Akelapan aor Kisi ke sath Na Hone Ka Ehsaas Apko Tor Deta Hai.
 
 Jab Apse Jure Log Apke Bagair Khush Ho Aor Apko bulaye Bagair Enjoy Kare.
 Dukh hota Hai.
 Agar Eid Na Hoti Toh shayad Itna Feel Na Hota.
-Andar se Tor Diya Aj.",,,,,
+Andar se Tor Diya Aj.",mental_health_reference_or_support,High,FALSE,,mental_health_reference
 5edb6a76-173f-4854-b444-b694cf95220a,twitter,"You are not weak for needing help.
 Ignoring emotional pain often turns into burnout, overthinking, or exhaustion.
 If you’re searching “therapy cost in India,” it means you still hope things can get better — and that hope matters.#MentalHealth #Therapy
 
-https://t.co/eV4cpX6FP7 https://t.co/OHzAsibEdU",,,,,
+https://t.co/eV4cpX6FP7 https://t.co/OHzAsibEdU",non_mental_health,Low,FALSE,,support_or_advice
 aca4805f-39ea-42dc-a583-3ee255217d80,twitter,"Wo Dard Jab Koi Apna Chor Kar Jata Hai | Emotional Reminder | Shaykh Atif Ahmed
 
-#Tanhai #loneliness #akelapan #shaykhatifahmed #bewafai #ShaykhAtif #gaddari #attachment #hurts #BrokenTrust #EmotionalStory #sheikhatifahmed #motivation https://t.co/Fuv3FSZoNV",,,,,
+#Tanhai #loneliness #akelapan #shaykhatifahmed #bewafai #ShaykhAtif #gaddari #attachment #hurts #BrokenTrust #EmotionalStory #sheikhatifahmed #motivation https://t.co/Fuv3FSZoNV",non_mental_health,Low,FALSE,,mental_health_reference
 95728c25-80b6-41e9-ad4c-f8566d580284,twitter,"@Harry_The_Nerd @xayyush Modular monolith woh joint family hai jisme har ek ko apna alag room + bathroom mil gaya! 
 
 Ladai ho toh sirf apne floor tak limited, baaki ghar shanti. Phir bhi ek hi building hai – AC kharab hua toh pura floor pareshan!  
 
-Microservices ne society bana li alag-alag towers ki.",,,,,
+Mic",non_mental_health,Low,FALSE,,mental_health_reference
 dce98295-5820-4ec9-93ae-50c3d6d25960,twitter,"Depression affects millions, but recovery is possible. 
 
 With the right mix of therapy, counseling &amp; care, healing begins. 
@@ -95,7 +95,7 @@ With the right mix of therapy, counseling &amp; care, healing begins.
 Lyfsmile connects you with expert psychologists &amp; personalized treatment to guide your journey. 
 {https://t.co/ZEjwZ2xCHS}
 
-#Lyfsmile #MentalHealth #India https://t.co/hFbEupgJO5",,,,,
+#Lyfsmile #MentalHealth #India https://t.co/hFbEupgJO5",non_mental_health,Low,FALSE,,support_or_advice
 6363fdec-54e0-46bc-9bbc-9eb93217c775,twitter,"Woh aadhi zindagi.. woh akelapan..
 bas usi ke sahare uski zindagi guzarni padti hai usko.. us insaan ka kya- #MahidNiyazi 
 
@@ -103,16 +103,15 @@ Damn this dialogue hitted me like anything..
 
 1 MONTH OF SHKH
 
-#ParthSamthaan #SeherHoneKoHai https://t.co/RPifBMZ9b9",,,,,
+#ParthSamthaan #SeherHoneKoHai https://t.co/RPifBMZ9b9",non_mental_health,Low,FALSE,,mental_health_reference
 e7d5bdd8-2030-44ae-8dbf-27aaaf55fe94,twitter,"Life is not misunderstood — it’s simply unexplored.
 When we pause, give space, and truly observe, life begins to reveal its clarity.✨
 
-#life #mentalhealth #meditation #selfgrowth #motivation #innerpeace #healingjourney #wellness #india #spiritualindia #hongkong #viral #trending https://t.co/Vj5W1ep2pf",,,,,
+#life #mentalhealth #meditation #selfgrowth #motivation #innerpeace #healingjourney #wellness #india #spiritualindia #hongkong #viral #trending https://t.co/Vj5W1ep2pf",non_mental_health,Low,FALSE,,mental_health_reference
 039c76f9-5655-4f2c-8bcf-b3ab4ed67bef,twitter,"“Mai pareshan pareshan” is not just a lyric anymore it’s become a lifestyle for aneet fandom 
-Aneet dhekja matt khel matt khel matt khel mere dil se bada nazuk hai 😰😓",,,,,
-a0f02314-5179-4224-97ff-fe156cee79f3,twitter,Mujhe akelapan sirf us time pasand hai jab mere pass khanay ko kuch hou,,,,,
-e0b6a34c-7cce-46e2-8cf0-4781de66722a,twitter,"(pichle 8 saal se ye ek hi sentence bol rahi hu waise, accha hua ki jisko bol rahi hu wo army hi nhi hai 😞. Pareshan ho gai merese ye sun sun ke 😞)",,,,,
-d1f879bb-0b96-4aab-b2e6-7ee5b4b8c99e,twitter,"@CrazyG10624 @subhi_karma Vo shareef aadmi Atul Subhash ko itna pareshan kiya gaya ki usne suicide kar liya. Uski maut ke baad bhi kuch ladkiyon ne use gaaliyan di. Aur yeh case dekh shaadishuda Muslim, jo 4-4 bachchon ka baap hai, uske saath live-in relationship mein reh rahi hai.
-https://t.co/Kfvcaa5ix9",,,,,
-82a10ea7-b95e-4d83-80cc-6a4c6c9b54e6,twitter,@SultanAsiyah Sorry to say but ye akelapan eske khud chuna h 😤,,,,,
-7720e469-5d9a-4684-8eb4-353fa4b3c6aa,twitter,Phone filled with hairan pareshan pictures. https://t.co/Wsk0nOf86t,,,,,
+Aneet dhekja matt khel matt khel matt khel mere dil se bada nazuk hai 😰😓",non_mental_health,Low,FALSE,,mental_health_reference
+a0f02314-5179-4224-97ff-fe156cee79f3,twitter,Mujhe akelapan sirf us time pasand hai jab mere pass khanay ko kuch hou,non_mental_health,Low,FALSE,,mental_health_reference
+e0b6a34c-7cce-46e2-8cf0-4781de66722a,twitter,"(pichle 8 saal se ye ek hi sentence bol rahi hu waise, accha hua ki jisko bol rahi hu wo army hi nhi hai 😞. Pareshan ho gai merese ye sun sun ke 😞)",non_mental_health,Low,FALSE,,mental_health_reference
+d1f879bb-0b96-4aab-b2e6-7ee5b4b8c99e,twitter,"@CrazyG10624 @subhi_karma Vo shareef aadmi Atul Subhash ko itna pareshan kiya gaya ki usne suicide kar liya. Uski maut ke baad bhi kuch ladkiyon ne use gaaliyan di. Aur yeh case dekh shaadishuda Muslim, jo 4-4 bachchon ka baap hai, uske saath live-in rela",mental_health_reference_or_support,High,FALSE,,mental_health_reference
+82a10ea7-b95e-4d83-80cc-6a4c6c9b54e6,twitter,@SultanAsiyah Sorry to say but ye akelapan eske khud chuna h 😤,non_mental_health,Low,FALSE,,mental_health_reference
+7720e469-5d9a-4684-8eb4-353fa4b3c6aa,twitter,Phone filled with hairan pareshan pictures. https://t.co/Wsk0nOf86t,non_mental_health,Low,FALSE,,mental_health_reference
