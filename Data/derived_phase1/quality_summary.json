@@ -1,0 +1,79 @@
+{
+  "row_count": 4739,
+  "platform_counts": {
+    "youtube": 1971,
+    "reddit": 1302,
+    "twitter": 1466
+  },
+  "dataset_metrics": [
+    {
+      "platform": "youtube",
+      "source_file": "youtube_data set.csv",
+      "encoding": "cp1252",
+      "rows": 1971,
+      "columns": 51,
+      "missing_record_id": 0,
+      "duplicate_record_id_extra": 0,
+      "empty_text": 0,
+      "exact_duplicate_rows_extra": 0,
+      "normalized_duplicate_text_extra": 22,
+      "synthetic_or_augmented": 125
+    },
+    {
+      "platform": "reddit",
+      "source_file": "reddit_dataSet.csv",
+      "encoding": "utf-8-sig",
+      "rows": 1302,
+      "columns": 51,
+      "missing_record_id": 0,
+      "duplicate_record_id_extra": 0,
+      "empty_text": 0,
+      "exact_duplicate_rows_extra": 0,
+      "normalized_duplicate_text_extra": 48,
+      "synthetic_or_augmented": 0
+    },
+    {
+      "platform": "twitter",
+      "source_file": "twitter_data set.csv",
+      "encoding": "utf-8-sig",
+      "rows": 1466,
+      "columns": 51,
+      "missing_record_id": 0,
+      "duplicate_record_id_extra": 0,
+      "empty_text": 0,
+      "exact_duplicate_rows_extra": 0,
+      "normalized_duplicate_text_extra": 32,
+      "synthetic_or_augmented": 0
+    }
+  ],
+  "combined_duplicate_record_id_extra": 0,
+  "exact_text_groups": 64,
+  "exact_text_records": 171,
+  "near_duplicate_candidates": 74,
+  "parent_groups": 30,
+  "reviewed_rows_available": 60,
+  "reviewed_rows_joined": 60,
+  "unreviewed_rows": 4679,
+  "reviewed_join_errors": 0,
+  "legacy_columns": [
+    "tier",
+    "tier_lexicon",
+    "tier_corrected",
+    "tier_model",
+    "tier_pred",
+    "tier_source",
+    "tier_confidence",
+    "lex_conf",
+    "lex_hits",
+    "corr_conf",
+    "model_conf",
+    "model_accept",
+    "prob_tier_0",
+    "prob_tier_1",
+    "prob_tier_2",
+    "prob_tier_3",
+    "split",
+    "model_split"
+  ],
+  "raw_files_unchanged": true
+}

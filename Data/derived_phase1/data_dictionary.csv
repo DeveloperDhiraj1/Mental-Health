@@ -1,0 +1,62 @@
+column,origin,role,provenance_status
+platform_raw,raw source,source/provenance or derived audit field,documented
+anonymized_user_id,raw source,source/provenance or derived audit field,documented
+timestamp,raw source,source/provenance or derived audit field,documented
+post_text,raw source,source/provenance or derived audit field,documented
+source_ref,raw source,source/provenance or derived audit field,documented
+record_id,raw source,source/provenance or derived audit field,documented
+month,raw source,source/provenance or derived audit field,documented
+day,raw source,source/provenance or derived audit field,documented
+hour,raw source,source/provenance or derived audit field,documented
+weekday,raw source,source/provenance or derived audit field,documented
+is_working_hour,raw source,source/provenance or derived audit field,documented
+is_weekend,raw source,source/provenance or derived audit field,documented
+post_length_chars,raw source,source/provenance or derived audit field,documented
+post_length_tokens,raw source,source/provenance or derived audit field,documented
+score,raw source,source/provenance or derived audit field,documented
+reply_count,raw source,source/provenance or derived audit field,documented
+share_count,raw source,source/provenance or derived audit field,documented
+parent_id,raw source,source/provenance or derived audit field,documented
+raw_meta_json,raw source,source/provenance or derived audit field,documented
+post_text_clean,raw source,source/provenance or derived audit field,documented
+lang,raw source,source/provenance or derived audit field,documented
+tier_lexicon,raw source,legacy metadata; not ground truth,unknown legacy provenance
+lex_conf,raw source,legacy metadata; not ground truth,unknown legacy provenance
+lex_hits,raw source,legacy metadata; not ground truth,unknown legacy provenance
+lex_topical,raw source,source/provenance or derived audit field,documented
+tier_corrected,raw source,legacy metadata; not ground truth,unknown legacy provenance
+corr_conf,raw source,legacy metadata; not ground truth,unknown legacy provenance
+tier_model,raw source,legacy metadata; not ground truth,unknown legacy provenance
+model_conf,raw source,legacy metadata; not ground truth,unknown legacy provenance
+model_accept,raw source,legacy metadata; not ground truth,unknown legacy provenance
+tier,raw source,legacy metadata; not ground truth,unknown legacy provenance
+tier_source,raw source,legacy metadata; not ground truth,unknown legacy provenance
+tier_confidence,raw source,legacy metadata; not ground truth,unknown legacy provenance
+split,raw source,legacy metadata; not ground truth,unknown legacy provenance
+is_synthetic,raw source,source/provenance or derived audit field,documented
+aug_method,raw source,source/provenance or derived audit field,documented
+parent_record_id,raw source,source/provenance or derived audit field,documented
+aug_version,raw source,source/provenance or derived audit field,documented
+temporal_mask,raw source,source/provenance or derived audit field,documented
+text_muril,raw source,source/provenance or derived audit field,documented
+text_negation,raw source,source/provenance or derived audit field,documented
+translit_map_hits,raw source,source/provenance or derived audit field,documented
+emoji_sub_count,raw source,source/provenance or derived audit field,documented
+ruminative_repetition,raw source,source/provenance or derived audit field,documented
+model_split,raw source,legacy metadata; not ground truth,unknown legacy provenance
+platform,raw source,source/provenance or derived audit field,documented
+tier_pred,raw source,legacy metadata; not ground truth,unknown legacy provenance
+prob_tier_0,raw source,legacy metadata; not ground truth,unknown legacy provenance
+prob_tier_1,raw source,legacy metadata; not ground truth,unknown legacy provenance
+prob_tier_2,raw source,legacy metadata; not ground truth,unknown legacy provenance
+prob_tier_3,raw source,legacy metadata; not ground truth,unknown legacy provenance
+source_file,pipeline-derived,source/provenance or derived audit field,documented
+source_row_number,pipeline-derived,source/provenance or derived audit field,documented
+source_encoding,pipeline-derived,source/provenance or derived audit field,documented
+stable_record_key,pipeline-derived,source/provenance or derived audit field,documented
+normalized_text_hash,pipeline-derived,source/provenance or derived audit field,documented
+exact_text_group_hash,pipeline-derived,source/provenance or derived audit field,documented
+synthetic_status,pipeline-derived,source/provenance or derived audit field,documented
+reviewed_label,pipeline-derived,reviewed human label; only 60 matched rows,documented
+reviewed_context_flags,pipeline-derived,source/provenance or derived audit field,documented
+reviewed_join_status,pipeline-derived,source/provenance or derived audit field,documented
