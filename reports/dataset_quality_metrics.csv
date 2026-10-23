@@ -1,0 +1,65 @@
+platform,metric,value,detail
+youtube,missing_record_id,0,count
+youtube,missing_anonymized_user_id,125,count
+youtube,missing_timestamp,125,count
+youtube,row_count,1971,exact
+youtube,column_count,51,exact
+youtube,exact_duplicate_rows_extra,0,full row duplicates beyond first
+youtube,duplicate_record_ids_extra,0,record_id duplicates beyond first
+youtube,duplicate_normalized_text_extra,22,normalized post_text duplicates beyond first
+youtube,empty_post_text,0,blank or whitespace-only
+youtube,invalid_timestamp,0,non-empty timestamp not parsed by ISO parser
+youtube,synthetic_or_augmented,125,"is_synthetic=true, non-original aug_method, or parent_record_id"
+youtube,explicit_is_synthetic_true,125,source flag
+reddit,missing_record_id,0,count
+reddit,missing_anonymized_user_id,0,count
+reddit,missing_timestamp,0,count
+reddit,row_count,1302,exact
+reddit,column_count,51,exact
+reddit,exact_duplicate_rows_extra,0,full row duplicates beyond first
+reddit,duplicate_record_ids_extra,0,record_id duplicates beyond first
+reddit,duplicate_normalized_text_extra,48,normalized post_text duplicates beyond first
+reddit,empty_post_text,0,blank or whitespace-only
+reddit,invalid_timestamp,0,non-empty timestamp not parsed by ISO parser
+reddit,synthetic_or_augmented,0,"is_synthetic=true, non-original aug_method, or parent_record_id"
+reddit,explicit_is_synthetic_true,0,source flag
+twitter,missing_record_id,0,count
+twitter,missing_anonymized_user_id,0,count
+twitter,missing_timestamp,0,count
+twitter,row_count,1466,exact
+twitter,column_count,51,exact
+twitter,exact_duplicate_rows_extra,0,full row duplicates beyond first
+twitter,duplicate_record_ids_extra,0,record_id duplicates beyond first
+twitter,duplicate_normalized_text_extra,32,normalized post_text duplicates beyond first
+twitter,empty_post_text,0,blank or whitespace-only
+twitter,invalid_timestamp,0,non-empty timestamp not parsed by ISO parser
+twitter,synthetic_or_augmented,0,"is_synthetic=true, non-original aug_method, or parent_record_id"
+twitter,explicit_is_synthetic_true,0,source flag
+combined,row_count,4739,exact
+combined,column_count_common,51,columns common to all three
+combined,unique_record_ids,4739,non-empty IDs
+combined,cross_platform_exact_text_groups,5,normalized text hash groups
+combined,cross_platform_exact_text_records,16,records in those groups
+combined,unique_nonempty_anonymized_users,3780,identifier count; values not printed
+combined,users_present_on_all_three_platforms,0,identifier count; values not printed
+combined,column_present_tier,1,legacy/metadata; not human target
+combined,column_present_tier_lexicon,1,legacy/metadata; not human target
+combined,column_present_tier_corrected,1,legacy/metadata; not human target
+combined,column_present_tier_model,1,legacy/metadata; not human target
+combined,column_present_tier_pred,1,legacy/metadata; not human target
+combined,column_present_tier_source,1,legacy/metadata; not human target
+combined,column_present_tier_confidence,1,legacy/metadata; not human target
+combined,column_present_lex_conf,1,legacy/metadata; not human target
+combined,column_present_lex_hits,1,legacy/metadata; not human target
+combined,column_present_corr_conf,1,legacy/metadata; not human target
+combined,column_present_model_conf,1,legacy/metadata; not human target
+combined,column_present_model_accept,1,legacy/metadata; not human target
+combined,column_present_prob_tier_0,1,legacy/metadata; not human target
+combined,column_present_prob_tier_1,1,legacy/metadata; not human target
+combined,column_present_prob_tier_2,1,legacy/metadata; not human target
+combined,column_present_prob_tier_3,1,legacy/metadata; not human target
+combined,column_present_split,1,legacy/metadata; not human target
+combined,column_present_model_split,1,legacy/metadata; not human target
+combined,column_present_is_synthetic,1,legacy/metadata; not human target
+combined,column_present_aug_method,1,legacy/metadata; not human target
+combined,column_present_parent_record_id,1,legacy/metadata; not human target

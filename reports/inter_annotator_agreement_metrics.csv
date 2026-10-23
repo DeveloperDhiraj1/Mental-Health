@@ -1,0 +1,49 @@
+scope,dimension,valid_pairs,observed_agreement,positive_agreement,negative_agreement,cohens_kappa,note
+overall,none_other,8,1.000000,,1.000000,,Kappa undefined when expected variance is zero or no valid pairs.
+overall,distress_negative_affect,8,1.000000,,1.000000,,Kappa undefined when expected variance is zero or no valid pairs.
+overall,mental_health_reference_or_support,8,1.000000,1.000000,,,Kappa undefined when expected variance is zero or no valid pairs.
+overall,self_harm_related,8,1.000000,,1.000000,,Kappa undefined when expected variance is zero or no valid pairs.
+reddit,none_other,2,1.000000,,1.000000,,Kappa undefined when expected variance is zero or no valid pairs.
+reddit,distress_negative_affect,2,1.000000,,1.000000,,Kappa undefined when expected variance is zero or no valid pairs.
+reddit,mental_health_reference_or_support,2,1.000000,1.000000,,,Kappa undefined when expected variance is zero or no valid pairs.
+reddit,self_harm_related,2,1.000000,,1.000000,,Kappa undefined when expected variance is zero or no valid pairs.
+twitter,none_other,4,1.000000,,1.000000,,Kappa undefined when expected variance is zero or no valid pairs.
+twitter,distress_negative_affect,4,1.000000,,1.000000,,Kappa undefined when expected variance is zero or no valid pairs.
+twitter,mental_health_reference_or_support,4,1.000000,1.000000,,,Kappa undefined when expected variance is zero or no valid pairs.
+twitter,self_harm_related,4,1.000000,,1.000000,,Kappa undefined when expected variance is zero or no valid pairs.
+youtube,none_other,2,1.000000,,1.000000,,Kappa undefined when expected variance is zero or no valid pairs.
+youtube,distress_negative_affect,2,1.000000,,1.000000,,Kappa undefined when expected variance is zero or no valid pairs.
+youtube,mental_health_reference_or_support,2,1.000000,1.000000,,,Kappa undefined when expected variance is zero or no valid pairs.
+youtube,self_harm_related,2,1.000000,,1.000000,,Kappa undefined when expected variance is zero or no valid pairs.
+overall,context:context_insufficient,10,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+overall,context:educational_or_information,10,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+overall,context:fictional_or_hypothetical,10,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+overall,context:first_person_or_self_report,10,1.000000,1.000000,,,Context flags analyzed separately; blank context is valid.
+overall,context:promotional_or_campaign,10,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+overall,context:quoted_or_reported,10,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+overall,context:sarcastic_or_ironic,10,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+overall,context:third_person,10,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+reddit,context:context_insufficient,3,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+reddit,context:educational_or_information,3,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+reddit,context:fictional_or_hypothetical,3,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+reddit,context:first_person_or_self_report,3,1.000000,1.000000,,,Context flags analyzed separately; blank context is valid.
+reddit,context:promotional_or_campaign,3,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+reddit,context:quoted_or_reported,3,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+reddit,context:sarcastic_or_ironic,3,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+reddit,context:third_person,3,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+twitter,context:context_insufficient,0,,,,,Context flags analyzed separately; blank context is valid.
+twitter,context:educational_or_information,0,,,,,Context flags analyzed separately; blank context is valid.
+twitter,context:fictional_or_hypothetical,0,,,,,Context flags analyzed separately; blank context is valid.
+twitter,context:first_person_or_self_report,0,,,,,Context flags analyzed separately; blank context is valid.
+twitter,context:promotional_or_campaign,0,,,,,Context flags analyzed separately; blank context is valid.
+twitter,context:quoted_or_reported,0,,,,,Context flags analyzed separately; blank context is valid.
+twitter,context:sarcastic_or_ironic,0,,,,,Context flags analyzed separately; blank context is valid.
+twitter,context:third_person,0,,,,,Context flags analyzed separately; blank context is valid.
+youtube,context:context_insufficient,7,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+youtube,context:educational_or_information,7,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+youtube,context:fictional_or_hypothetical,7,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+youtube,context:first_person_or_self_report,7,1.000000,1.000000,,,Context flags analyzed separately; blank context is valid.
+youtube,context:promotional_or_campaign,7,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+youtube,context:quoted_or_reported,7,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+youtube,context:sarcastic_or_ironic,7,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
+youtube,context:third_person,7,1.000000,,1.000000,,Context flags analyzed separately; blank context is valid.
