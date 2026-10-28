@@ -3,3 +3,5 @@ uvicorn
 pydantic
 joblib
 scikit-learn
+Pillow
+python-multipart

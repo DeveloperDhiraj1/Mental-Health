@@ -15,5 +15,6 @@ Endpoints:
 - `GET /api/v1/model/info`
 - `POST /api/v1/predictions`
 - `POST /api/v1/predictions/batch`
+- `POST /api/v1/image-analysis` with multipart field `files` (JPEG, PNG, or WebP; up to 10 files, 5 MB each). Files are validated in memory and not persisted. The endpoint currently returns an explicit unsupported-processing response because the project has no vision model or OCR pipeline.
 
 Configure `MODEL_ARTIFACT_PATH` only after a compatible, approved model artifact exists. Keep CORS origins explicit. This is experimental text classification, not diagnosis or clinical risk prediction.

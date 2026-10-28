@@ -13,11 +13,13 @@ class PredictionRequest(BaseModel):
 
 
 class BatchPredictionRequest(BaseModel):
-    texts: list[str] = Field(..., min_length=1, max_length=32)
+    texts: list[str] = Field(..., min_length=5, max_length=32)
 
     @field_validator("texts")
     @classmethod
     def validate_texts(cls, values: list[str]) -> list[str]:
+        if len(values) < 5:
+            raise ValueError("texts must contain at least 5 posts")
         if any(not x.strip() for x in values):
             raise ValueError("texts must not contain empty or whitespace-only values")
         if any(len(x) > 5000 for x in values):
