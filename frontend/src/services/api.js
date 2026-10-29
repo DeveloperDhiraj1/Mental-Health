@@ -1,5 +1,6 @@
 const API_BASE = (import.meta.env.VITE_API_BASE_URL || 'http://127.0.0.1:8000').replace(/\/$/, '');
 const REQUEST_TIMEOUT_MS = 12000;
+let accessToken = sessionStorage.getItem('mindscope_access_token') || '';
 
 class ApiError extends Error {
   constructor(message, status = 0) { super(message); this.name = 'ApiError'; this.status = status; }
@@ -9,7 +10,9 @@ async function request(path, options = {}) {
   const controller = new AbortController();
   const timeout = window.setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
   try {
-    const response = await fetch(`${API_BASE}${path}`, { ...options, signal: controller.signal });
+    const headers = new Headers(options.headers || {});
+    if (accessToken) headers.set('Authorization', `Bearer ${accessToken}`);
+    const response = await fetch(`${API_BASE}${path}`, { ...options, headers, signal: controller.signal });
     let payload = null;
     try { payload = await response.json(); } catch { /* handled as an invalid response */ }
     if (!response.ok) {
@@ -41,12 +44,18 @@ function validateBatchResponse(payload) {
 
 export const api = {
   baseUrl: API_BASE,
+  setToken(token) { accessToken = token || ''; if (accessToken) sessionStorage.setItem('mindscope_access_token', accessToken); else sessionStorage.removeItem('mindscope_access_token'); },
+  hasToken() { return Boolean(accessToken); },
   async modelInfo() { return validateModelInfo(await request('/api/v1/model/info')); },
   async batchPredict(texts) {
     return validateBatchResponse(await request('/api/v1/predictions/batch', {
       method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ texts }),
     }));
   },
+  async register(email, password) { const result = await request('/api/v1/auth/register', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email, password }) }); this.setToken(result.access_token); return result.user; },
+  async login(email, password) { const result = await request('/api/v1/auth/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email, password }) }); this.setToken(result.access_token); return result.user; },
+  async me() { return request('/api/v1/auth/me'); },
+  async logout() { try { await request('/api/v1/auth/logout', { method: 'POST' }); } finally { this.setToken(''); } },
   uploadImages(files, onProgress = () => {}) {
     return new Promise((resolve, reject) => {
       const request = new XMLHttpRequest();

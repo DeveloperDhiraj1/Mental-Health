@@ -1,6 +1,8 @@
-from fastapi import APIRouter, HTTPException, Request, status
+from fastapi import APIRouter, Depends, HTTPException, Request, status
 
+from app.auth import current_user
 from app.core.exceptions import ModelUnavailableError
+from app.db import record_analysis
 from app.schemas.prediction import BatchPredictionRequest, PredictionRequest, PredictionResponse
 
 router = APIRouter()
@@ -11,20 +13,24 @@ def _error() -> HTTPException:
 
 
 @router.post("/api/v1/predictions", response_model=PredictionResponse)
-def prediction(request: Request, payload: PredictionRequest) -> PredictionResponse:
+def prediction(request: Request, payload: PredictionRequest, user: dict | None = Depends(current_user)) -> PredictionResponse:
     service = request.app.state.prediction_service
     try:
         labels = service.predict([payload.text])[0]
     except ModelUnavailableError as exc:
         raise _error() from exc
+    if user:
+        record_analysis(user["id"], 1, [labels])
     return PredictionResponse(available=True, message="Experimental text classification only", labels=labels)
 
 
 @router.post("/api/v1/predictions/batch", response_model=list[PredictionResponse])
-def batch_prediction(request: Request, payload: BatchPredictionRequest) -> list[PredictionResponse]:
+def batch_prediction(request: Request, payload: BatchPredictionRequest, user: dict | None = Depends(current_user)) -> list[PredictionResponse]:
     service = request.app.state.prediction_service
     try:
         labels = service.predict(payload.texts)
     except ModelUnavailableError as exc:
         raise _error() from exc
+    if user:
+        record_analysis(user["id"], len(labels), labels)
     return [PredictionResponse(available=True, message="Experimental text classification only", labels=row) for row in labels]

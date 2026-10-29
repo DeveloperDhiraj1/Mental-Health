@@ -1,6 +1,7 @@
 import os
 import sys
 import unittest
+from uuid import uuid4
 from io import BytesIO
 from pathlib import Path
 
@@ -33,6 +34,23 @@ class ApiTests(unittest.TestCase):
         with TestClient(app) as client:
             response = client.post("/api/v1/predictions", content=b"x", headers={"content-length": str(16 * 1024 * 1024 + 1)})
         self.assertEqual(response.status_code, 413)
+
+    def test_auth_register_login_history_and_logout(self):
+        email = f"test-{uuid4().hex}@example.com"
+        with TestClient(app) as client:
+            registered = client.post("/api/v1/auth/register", json={"email": email, "password": "correct-horse-battery"})
+            self.assertEqual(registered.status_code, 201)
+            token = registered.json()["access_token"]
+            me = client.get("/api/v1/auth/me", headers={"Authorization": f"Bearer {token}"})
+            history = client.get("/api/v1/auth/history", headers={"Authorization": f"Bearer {token}"})
+            logged_in = client.post("/api/v1/auth/login", json={"email": email, "password": "correct-horse-battery"})
+            logout = client.post("/api/v1/auth/logout", headers={"Authorization": f"Bearer {token}"})
+            after_logout = client.get("/api/v1/auth/me", headers={"Authorization": f"Bearer {token}"})
+        self.assertEqual(me.status_code, 200)
+        self.assertEqual(history.status_code, 200)
+        self.assertEqual(logged_in.status_code, 200)
+        self.assertEqual(logout.status_code, 200)
+        self.assertEqual(after_logout.status_code, 401)
 
     def test_cors_allows_configured_frontend_origin(self):
         with TestClient(app) as client:

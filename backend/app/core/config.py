@@ -25,6 +25,10 @@ class Settings:
     max_request_bytes: int = int(os.getenv("MAX_REQUEST_BYTES", str(16 * 1024 * 1024)))
     allowed_hosts: tuple[str, ...] = _list_env("ALLOWED_HOSTS", "127.0.0.1,localhost,testserver")
     enable_docs: bool = os.getenv("ENABLE_DOCS", "true").lower() in {"1", "true", "yes"}
+    database_path: Path = Path(os.getenv("DATABASE_PATH", "backend/data/mindscope.db"))
+    auth_required: bool = os.getenv("AUTH_REQUIRED", "false").lower() in {"1", "true", "yes"} or environment == "production"
+    session_ttl_seconds: int = int(os.getenv("SESSION_TTL_SECONDS", "86400"))
+    rate_limit_per_minute: int = int(os.getenv("RATE_LIMIT_PER_MINUTE", "120"))
 
 
 settings = Settings()

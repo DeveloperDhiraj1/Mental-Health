@@ -13,6 +13,8 @@ Endpoints:
 
 - `GET /health`
 - `GET /ready` (returns 503 until a compatible model is loaded)
+- `POST /api/v1/auth/register` and `POST /api/v1/auth/login@@
+- `GET /api/v1/auth/me@@, `POST /api/v1/auth/logout@@, and `GET /api/v1/auth/history@@
 - `GET /api/v1/model/info`
 - `POST /api/v1/predictions`
 - `POST /api/v1/predictions/batch`
@@ -32,3 +34,5 @@ Set these environment variables in the deployment secret/config store:
 `MAX_REQUEST_BYTES=16777216`
 
 Run behind an HTTPS reverse proxy with authentication, rate limiting, monitoring, and a process manager. The application intentionally does not log raw post text.
+
+Set `AUTH_REQUIRED=true` in production. Local development defaults to optional authentication so the existing demo flow continues to work.
