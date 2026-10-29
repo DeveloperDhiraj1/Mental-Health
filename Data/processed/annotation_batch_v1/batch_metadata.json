@@ -1,0 +1,36 @@
+{
+  "batch_version": "annotation_batch_v1",
+  "seed": 20261028,
+  "per_platform": 20,
+  "total_records": 60,
+  "platform_counts": {
+    "youtube": 20,
+    "reddit": 20,
+    "twitter": 20
+  },
+  "selection_method": "deterministic platform-stratified random sample using record eligibility only; legacy labels, keywords, predictions, probabilities, and confidence fields were not read",
+  "excluded_prior_pilot_ids": 60,
+  "excluded_counts": {
+    "youtube": {
+      "synthetic_or_augmented": 125,
+      "prior_pilot_record": 20,
+      "missing_id_or_text": 0
+    },
+    "reddit": {
+      "synthetic_or_augmented": 0,
+      "prior_pilot_record": 20,
+      "missing_id_or_text": 0
+    },
+    "twitter": {
+      "synthetic_or_augmented": 0,
+      "prior_pilot_record": 20,
+      "missing_id_or_text": 0
+    }
+  },
+  "synthetic_policy": "explicitly synthetic/augmented records excluded from primary batch",
+  "prior_mismatch_review_items": [
+    "95728c25-80b6-41e9-ad4c-f8566d580284",
+    "d1f879bb-0b96-4aab-b2e6-7ee5b4b8c99e"
+  ],
+  "raw_files_modified": false
+}

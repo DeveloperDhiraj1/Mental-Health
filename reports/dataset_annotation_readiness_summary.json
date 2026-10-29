@@ -1,0 +1,33 @@
+{
+  "raw_rows": 4739,
+  "platform_counts": {
+    "youtube": 1971,
+    "reddit": 1302,
+    "twitter": 1466
+  },
+  "reviewed_joined": 60,
+  "unreviewed_rows": 4679,
+  "verified_usable_final_labels": 60,
+  "final_label_distribution": {
+    "mental_health_reference_or_support": 11,
+    "distress_negative_affect": 12,
+    "none_other": 25,
+    "distress_negative_affect|self_harm_related": 2,
+    "distress_negative_affect|mental_health_reference_or_support": 5,
+    "distress_negative_affect|mental_health_reference_or_support|self_harm_related": 4,
+    "mental_health_reference_or_support|self_harm_related": 1
+  },
+  "pilot_platform_counts": {
+    "youtube": 20,
+    "reddit": 20,
+    "twitter": 20
+  },
+  "a2_text_mismatch_ids": [
+    "95728c25-80b6-41e9-ad4c-f8566d580284",
+    "d1f879bb-0b96-4aab-b2e6-7ee5b4b8c99e"
+  ],
+  "a1_rows": 60,
+  "a2_rows": 60,
+  "a1_a2_ids_match": true,
+  "seed_ids_complete": true
+}

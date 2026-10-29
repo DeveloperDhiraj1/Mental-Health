@@ -1,0 +1,61 @@
+record_id,stable_record_key,platform,source_file,source_row_number,duplicate_group_hash,source_text_review_required
+4f9d3139-5e74-4605-8a38-3fc9f77787fa,youtube:4f9d3139-5e74-4605-8a38-3fc9f77787fa,youtube,youtube_data set.csv,1212,,FALSE
+f1f0dbfb-236a-467c-908c-c0c9cd6868d4,youtube:f1f0dbfb-236a-467c-908c-c0c9cd6868d4,youtube,youtube_data set.csv,989,,FALSE
+d1b8bf29-846d-470f-9124-617470ddf476,youtube:d1b8bf29-846d-470f-9124-617470ddf476,youtube,youtube_data set.csv,522,,FALSE
+80f9f45e-9804-46f9-a6cc-7cc6db57e80e,youtube:80f9f45e-9804-46f9-a6cc-7cc6db57e80e,youtube,youtube_data set.csv,1345,,FALSE
+36feb86a-b64b-4b21-b5cb-0fca0e7afb89,youtube:36feb86a-b64b-4b21-b5cb-0fca0e7afb89,youtube,youtube_data set.csv,625,,FALSE
+ee65942a-2889-4b9b-a433-d913eb30ea99,youtube:ee65942a-2889-4b9b-a433-d913eb30ea99,youtube,youtube_data set.csv,23,,FALSE
+b33c4c47-ce2c-4590-a783-c8845c228fe3,youtube:b33c4c47-ce2c-4590-a783-c8845c228fe3,youtube,youtube_data set.csv,1422,,FALSE
+750297ba-eea9-41a3-a244-228ff79163fa,youtube:750297ba-eea9-41a3-a244-228ff79163fa,youtube,youtube_data set.csv,611,,FALSE
+e356b831-4ddd-479f-9d26-88a2d1b987d5,youtube:e356b831-4ddd-479f-9d26-88a2d1b987d5,youtube,youtube_data set.csv,50,,FALSE
+947fd6ec-563f-43d1-906b-0c058afa0a4e,youtube:947fd6ec-563f-43d1-906b-0c058afa0a4e,youtube,youtube_data set.csv,1626,,FALSE
+a6a51216-fbc2-4ea4-8c00-a0b7cf49d37c,youtube:a6a51216-fbc2-4ea4-8c00-a0b7cf49d37c,youtube,youtube_data set.csv,324,,FALSE
+d4feb47a-50ea-484c-97b2-6fbc25bdb84a,youtube:d4feb47a-50ea-484c-97b2-6fbc25bdb84a,youtube,youtube_data set.csv,38,,FALSE
+0e1baa64-86ec-4703-9519-150134ff83ca,youtube:0e1baa64-86ec-4703-9519-150134ff83ca,youtube,youtube_data set.csv,733,,FALSE
+362d7005-c1c5-4189-afa1-188dc46580df,youtube:362d7005-c1c5-4189-afa1-188dc46580df,youtube,youtube_data set.csv,1501,,FALSE
+4418255a-bd36-4622-bad3-bf6b96f26717,youtube:4418255a-bd36-4622-bad3-bf6b96f26717,youtube,youtube_data set.csv,1590,,FALSE
+83d78296-27dd-4c41-aa0a-8508f4f7b811,youtube:83d78296-27dd-4c41-aa0a-8508f4f7b811,youtube,youtube_data set.csv,1074,,FALSE
+2d2c4765-ed0d-466a-bfbf-f2d036c99f5a,youtube:2d2c4765-ed0d-466a-bfbf-f2d036c99f5a,youtube,youtube_data set.csv,364,,FALSE
+f1c7c644-5c3c-49a0-90cf-df680adcdc85,youtube:f1c7c644-5c3c-49a0-90cf-df680adcdc85,youtube,youtube_data set.csv,187,,FALSE
+a42f1e16-7545-4270-857e-31ba84a2a9fd,youtube:a42f1e16-7545-4270-857e-31ba84a2a9fd,youtube,youtube_data set.csv,569,,FALSE
+2794f349-675d-4bf0-8589-1a6e74ffa0a3,youtube:2794f349-675d-4bf0-8589-1a6e74ffa0a3,youtube,youtube_data set.csv,334,,FALSE
+4514e886-9a16-4679-9427-dbd99bc0ab50,reddit:4514e886-9a16-4679-9427-dbd99bc0ab50,reddit,reddit_dataSet.csv,515,,FALSE
+a5fc5bbc-580f-4b97-b3b0-a9cce4c7e22c,reddit:a5fc5bbc-580f-4b97-b3b0-a9cce4c7e22c,reddit,reddit_dataSet.csv,259,,FALSE
+9c6390a3-27e3-46bd-b126-a6d1844251fb,reddit:9c6390a3-27e3-46bd-b126-a6d1844251fb,reddit,reddit_dataSet.csv,51,,FALSE
+610d54e3-eec6-4e1b-8348-cddc3017fc21,reddit:610d54e3-eec6-4e1b-8348-cddc3017fc21,reddit,reddit_dataSet.csv,1067,,FALSE
+d9166dc3-4efe-4d39-aca5-ef2d803530ad,reddit:d9166dc3-4efe-4d39-aca5-ef2d803530ad,reddit,reddit_dataSet.csv,866,,FALSE
+67eba975-b14f-4ff0-a6a3-9529ee2b85de,reddit:67eba975-b14f-4ff0-a6a3-9529ee2b85de,reddit,reddit_dataSet.csv,429,,FALSE
+c140400a-a87a-4e16-8baa-3dbb839e49c6,reddit:c140400a-a87a-4e16-8baa-3dbb839e49c6,reddit,reddit_dataSet.csv,471,,FALSE
+3633311c-06b2-4e5a-a7a4-c78f06219230,reddit:3633311c-06b2-4e5a-a7a4-c78f06219230,reddit,reddit_dataSet.csv,229,,FALSE
+f180281d-0c90-48c1-bc82-2c423ac595e6,reddit:f180281d-0c90-48c1-bc82-2c423ac595e6,reddit,reddit_dataSet.csv,694,,FALSE
+e2fd1044-4fb1-4d57-a85f-8cd975be8aea,reddit:e2fd1044-4fb1-4d57-a85f-8cd975be8aea,reddit,reddit_dataSet.csv,1127,,FALSE
+f2693736-ae48-4e75-b150-0285e23336a0,reddit:f2693736-ae48-4e75-b150-0285e23336a0,reddit,reddit_dataSet.csv,1029,,FALSE
+90bf0357-8039-48c2-8ea4-03cb9b9393dd,reddit:90bf0357-8039-48c2-8ea4-03cb9b9393dd,reddit,reddit_dataSet.csv,1201,,FALSE
+a7899714-ad6c-4951-b73d-c81ac5c3673e,reddit:a7899714-ad6c-4951-b73d-c81ac5c3673e,reddit,reddit_dataSet.csv,1051,,FALSE
+7ec60182-369c-4fab-aead-b8f2ca98b0cc,reddit:7ec60182-369c-4fab-aead-b8f2ca98b0cc,reddit,reddit_dataSet.csv,171,,FALSE
+6c27809b-79fb-45d6-a2c0-ccf03cfa3e3a,reddit:6c27809b-79fb-45d6-a2c0-ccf03cfa3e3a,reddit,reddit_dataSet.csv,348,,FALSE
+c084e8a9-c14f-4ca6-bdbd-da5df9e43116,reddit:c084e8a9-c14f-4ca6-bdbd-da5df9e43116,reddit,reddit_dataSet.csv,340,,FALSE
+59cbe80d-2467-4751-a400-1fb3bbfbcc20,reddit:59cbe80d-2467-4751-a400-1fb3bbfbcc20,reddit,reddit_dataSet.csv,1015,,FALSE
+1c651465-616c-45eb-917f-bcc32e7870ad,reddit:1c651465-616c-45eb-917f-bcc32e7870ad,reddit,reddit_dataSet.csv,205,,FALSE
+b4b81b31-9c22-4734-baa6-43b11a16e844,reddit:b4b81b31-9c22-4734-baa6-43b11a16e844,reddit,reddit_dataSet.csv,613,,FALSE
+ed3667f6-4f85-4a38-8333-59b617a04b5a,reddit:ed3667f6-4f85-4a38-8333-59b617a04b5a,reddit,reddit_dataSet.csv,1098,,FALSE
+cd407896-9110-4138-92e3-13c13f938d26,twitter:cd407896-9110-4138-92e3-13c13f938d26,twitter,twitter_data set.csv,896,,FALSE
+24f39dcb-1026-4778-92eb-1da3bcb6f738,twitter:24f39dcb-1026-4778-92eb-1da3bcb6f738,twitter,twitter_data set.csv,1136,,FALSE
+a0e2de64-6b64-48b5-a43c-2c0248dee54f,twitter:a0e2de64-6b64-48b5-a43c-2c0248dee54f,twitter,twitter_data set.csv,546,,FALSE
+eb1c47a8-bd62-43d8-a94a-b18512b66ddf,twitter:eb1c47a8-bd62-43d8-a94a-b18512b66ddf,twitter,twitter_data set.csv,348,,FALSE
+c373be33-8536-40ea-99f4-f4a64af2189d,twitter:c373be33-8536-40ea-99f4-f4a64af2189d,twitter,twitter_data set.csv,1282,,FALSE
+b2f01988-f1f7-42a7-b753-55a0f2ccc2ff,twitter:b2f01988-f1f7-42a7-b753-55a0f2ccc2ff,twitter,twitter_data set.csv,924,,FALSE
+7159b598-7f23-46e3-8e0d-11c9ac0ac12e,twitter:7159b598-7f23-46e3-8e0d-11c9ac0ac12e,twitter,twitter_data set.csv,647,,FALSE
+0e12b228-5f7b-45ea-aa3a-b211244fb705,twitter:0e12b228-5f7b-45ea-aa3a-b211244fb705,twitter,twitter_data set.csv,26,,FALSE
+35469b90-ae36-4c36-8d22-02f529cf79fe,twitter:35469b90-ae36-4c36-8d22-02f529cf79fe,twitter,twitter_data set.csv,565,,FALSE
+830c2793-d4b3-4817-8360-59e05749fb72,twitter:830c2793-d4b3-4817-8360-59e05749fb72,twitter,twitter_data set.csv,925,,FALSE
+2b2b36e5-e143-48b4-b926-f448e320931f,twitter:2b2b36e5-e143-48b4-b926-f448e320931f,twitter,twitter_data set.csv,1093,,FALSE
+2f661032-541c-4dbc-8d49-4ba7a033d5b5,twitter:2f661032-541c-4dbc-8d49-4ba7a033d5b5,twitter,twitter_data set.csv,57,,FALSE
+d1541271-fcf2-46dd-b16e-0698c981e6ab,twitter:d1541271-fcf2-46dd-b16e-0698c981e6ab,twitter,twitter_data set.csv,895,,FALSE
+5d74a24a-6a69-4603-b35f-d2d128282409,twitter:5d74a24a-6a69-4603-b35f-d2d128282409,twitter,twitter_data set.csv,687,,FALSE
+b6970e14-2106-44da-b004-b9c1e2e083f4,twitter:b6970e14-2106-44da-b004-b9c1e2e083f4,twitter,twitter_data set.csv,1095,,FALSE
+70411e9a-9bf0-46fc-aa1f-e688b2cfdc5b,twitter:70411e9a-9bf0-46fc-aa1f-e688b2cfdc5b,twitter,twitter_data set.csv,626,,FALSE
+41066885-336d-414b-84b6-c12b2282393e,twitter:41066885-336d-414b-84b6-c12b2282393e,twitter,twitter_data set.csv,952,,FALSE
+3f6ca855-b61c-4ca8-be73-e33c88850c2b,twitter:3f6ca855-b61c-4ca8-be73-e33c88850c2b,twitter,twitter_data set.csv,1115,,FALSE
+9a8afca4-a738-498f-a50e-49d62cefe2d1,twitter:9a8afca4-a738-498f-a50e-49d62cefe2d1,twitter,twitter_data set.csv,1194,,FALSE
+52c7ea3b-37ea-4a31-88ae-d15f15b10f8d,twitter:52c7ea3b-37ea-4a31-88ae-d15f15b10f8d,twitter,twitter_data set.csv,805,,FALSE
