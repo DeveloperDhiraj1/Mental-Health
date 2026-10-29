@@ -15,16 +15,24 @@ class ApiTests(unittest.TestCase):
     def test_health_and_model_info(self):
         with TestClient(app) as client:
             health = client.get("/health")
+            ready = client.get("/ready")
             info = client.get("/api/v1/model/info")
             docs = client.get("/docs")
             openapi = client.get("/openapi.json")
         self.assertEqual(health.status_code, 200)
         self.assertFalse(health.json()["model_available"])
+        self.assertEqual(ready.status_code, 503)
         self.assertEqual(info.status_code, 200)
         self.assertFalse(info.json()["available"])
         self.assertEqual(docs.status_code, 200)
         self.assertEqual(openapi.status_code, 200)
         self.assertIn("/api/v1/image-analysis", openapi.json()["paths"])
+        self.assertIn("X-Content-Type-Options", health.headers)
+
+    def test_request_size_guard(self):
+        with TestClient(app) as client:
+            response = client.post("/api/v1/predictions", content=b"x", headers={"content-length": str(16 * 1024 * 1024 + 1)})
+        self.assertEqual(response.status_code, 413)
 
     def test_cors_allows_configured_frontend_origin(self):
         with TestClient(app) as client:

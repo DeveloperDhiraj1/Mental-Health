@@ -12,6 +12,7 @@ class PredictionService:
         return {
             "available": self.loader.available,
             "artifact_configured": self.loader.artifact_path is not None,
+            "status": "ready" if self.loader.available else "unavailable",
             "experimental": True,
             "clinical_use": False,
             "message": "Experimental text classification only; not a medical diagnosis or clinical risk assessment.",

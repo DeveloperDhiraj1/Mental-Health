@@ -1,8 +1,9 @@
 from pydantic import BaseModel, Field, field_validator
+from app.core.config import settings
 
 
 class PredictionRequest(BaseModel):
-    text: str = Field(..., min_length=1, max_length=5000)
+    text: str = Field(..., min_length=1, max_length=settings.max_text_chars)
 
     @field_validator("text")
     @classmethod
@@ -13,7 +14,7 @@ class PredictionRequest(BaseModel):
 
 
 class BatchPredictionRequest(BaseModel):
-    texts: list[str] = Field(..., min_length=5, max_length=32)
+    texts: list[str] = Field(..., min_length=5, max_length=settings.max_batch_size)
 
     @field_validator("texts")
     @classmethod
@@ -22,8 +23,8 @@ class BatchPredictionRequest(BaseModel):
             raise ValueError("texts must contain at least 5 posts")
         if any(not x.strip() for x in values):
             raise ValueError("texts must not contain empty or whitespace-only values")
-        if any(len(x) > 5000 for x in values):
-            raise ValueError("each text must be at most 5000 characters")
+        if any(len(x) > settings.max_text_chars for x in values):
+            raise ValueError(f"each text must be at most {settings.max_text_chars} characters")
         return values
 
 
