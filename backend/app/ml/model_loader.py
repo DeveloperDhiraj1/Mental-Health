@@ -17,6 +17,7 @@ class ModelLoader:
         return self.model is not None
 
     def load(self) -> None:
+        self.model = None
         if self.artifact_path is None:
             self.error = "No MODEL_ARTIFACT_PATH configured"
             return
@@ -24,9 +25,14 @@ class ModelLoader:
             self.error = "Configured model artifact does not exist"
             return
         try:
-            self.model = joblib.load(self.artifact_path)
-        except Exception:
-            self.error = "Configured model artifact could not be loaded"
+            candidate = joblib.load(self.artifact_path)
+            if not callable(getattr(candidate, "predict", None)):
+                self.error = "Configured model artifact has no compatible predict method"
+                return
+            self.model = candidate
+            self.error = None
+        except Exception as exc:
+            self.error = f"Configured model artifact could not be loaded: {type(exc).__name__}"
             self.model = None
 
     def predict(self, texts: list[str]) -> list[list[str]]:

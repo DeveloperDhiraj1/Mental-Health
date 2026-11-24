@@ -12,7 +12,7 @@ from app.api.v1.router import router
 from app.core.config import settings
 from app.ml.model_loader import ModelLoader
 from app.services.prediction_service import PredictionService
-from app.db import init_db
+from app.db import close_db, init_db
 
 
 @asynccontextmanager
@@ -21,7 +21,10 @@ async def lifespan(app: FastAPI):
     loader = ModelLoader(settings.model_artifact_path)
     loader.load()
     app.state.prediction_service = PredictionService(loader)
-    yield
+    try:
+        yield
+    finally:
+        close_db()
 
 
 app = FastAPI(
